@@ -314,6 +314,7 @@ fewer than 10,000 documents (or less than 3% of the total index size). These
 small segments tend to disappear quickly anyway and it is a waste to associate a
 cache with them.
 
+Note: Term queries are not cached in v5.x onwards. See this link
 
 Although not quite true in reality (execution is a bit more complicated based on
 how the query planner re-arranges things, and some heuristics based on query cost),
